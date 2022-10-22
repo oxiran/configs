@@ -1,0 +1,38 @@
+{
+  "name": "@oxiran/commitlint-config",
+  "version": "1.0.0",
+  "description": "Shared commitlint config for of projects.",
+  "main": "commitlint.config.js",
+  "files": [
+    "commitlint.config.js"
+  ],
+  "keywords": [
+    "commitlint",
+    "config",
+    "configuration"
+  ],
+  "scripts": {
+    "release": "semantic-release -e semantic-release-monorepo"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.1.0"
+  },
+  "author": {
+    "name": "oxiran",
+    "email": "oxiran.liao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:oxiran/configs.git",
+    "directory": "/packages/commitlint-config"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oxiran/configs/issues"
+  },
+  "homepage": "https://github.com/oxiran/configs",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
