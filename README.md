@@ -7,6 +7,7 @@ Take a look at their READMEs for more details.
 + [commitlint-config](./packages/commitlint-config)
 + [eslint-config](./packages/eslint-config)
 + [semantic-release-config](./packages/semantic-release-config)
++ [tsconfig](./packages/tsconfig)
 
 # License
 [MIT License](LICENSE)
