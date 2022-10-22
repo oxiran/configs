@@ -1,0 +1,46 @@
+{
+  "name": "@oxiran/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared eslint config of my projects.",
+  "main": ".eslintrc.js",
+  "files": [
+    ".eslintrc.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "config",
+    "configuration"
+  ],
+  "scripts": {
+    "release": "semantic-release -e semantic-release-monorepo"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.1.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0"
+  },
+  "author": {
+    "name": "oxiran",
+    "email": "oxiran.liao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:oxiran/configs.git",
+    "directory": "/packages/eslint-config"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oxiran/configs/issues"
+  },
+  "homepage": "https://github.com/oxiran/configs",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
