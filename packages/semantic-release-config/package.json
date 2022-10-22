@@ -1,0 +1,50 @@
+{
+  "name": "@oxiran/semantic-release-config",
+  "version": "1.0.0",
+  "description": "Shared semantic-release config of my projects.",
+  "main": "release.config.js",
+  "files": [
+    "release.config.js"
+  ],
+  "keywords": [
+    "semantic-release",
+    "semantic-release-config",
+    ".releaserc",
+    ".releaserc.js",
+    ".releaserc.json",
+    "release.config.js",
+    "semantic",
+    "release"
+  ],
+  "scripts": {
+    "release": "semantic-release -e semantic-release-monorepo"
+  },
+  "peerDependencies": {
+    "semantic-release": ">=19.0.0"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.5"
+  },
+  "author": {
+    "name": "oxiran",
+    "email": "oxiran.liao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:oxiran/configs.git",
+    "directory": "/packages/semantic-release-config"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oxiran/configs/issues"
+  },
+  "homepage": "https://github.com/oxiran/configs",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
