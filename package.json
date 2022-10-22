@@ -1,0 +1,33 @@
+{
+  "name": "configs",
+  "private": true,
+  "description": "Shared configs of my projects.",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "semantic-release": "^19.0.5",
+    "semantic-release-monorepo": "^7.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:oxiran/configs.git"
+  },
+  "keywords": [
+    "config",
+    "configuration"
+  ],
+  "author": {
+    "name": "oxiran",
+    "email": "oxiran.liao@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oxiran/configs/issues"
+  },
+  "homepage": "https://github.com/oxiran/configs#readme",
+  "workspaces": [
+    "packages/*"
+  ]
+}
