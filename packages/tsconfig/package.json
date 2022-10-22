@@ -1,0 +1,43 @@
+{
+  "name": "@oxiran/tsconfig",
+  "version": "1.0.0",
+  "description": "Shared tsconfig of my projects.",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "typescript",
+    "ts",
+    "tsconfig",
+    "tsconfig.json",
+    "configuration"
+  ],
+  "scripts": {
+    "release": "semantic-release -e semantic-release-monorepo"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "author": {
+    "name": "oxiran",
+    "email": "oxiran.liao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:oxiran/configs.git",
+    "directory": "/packages/tsconfig"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oxiran/configs/issues"
+  },
+  "homepage": "https://github.com/oxiran/configs",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

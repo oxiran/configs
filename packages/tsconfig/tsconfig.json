@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "@oxiran/tsconfig",
+  "exclude": ["node_modules", "**/es", "**/lib"],
+  "compilerOptions": {
+    /* Projects */
+
+    /* Language and Environment */
+    "target": "ES5",
+    "lib": ["DOM", "ES2022"],
+
+    /* Modules */
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    /* JavaScript Support */
+
+    /* Emit */
+    "declaration": true,
+    "noEmitOnError": true,
+    "sourceMap": true,
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "experimentalDecorators": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  }
+}
