@@ -23,6 +23,7 @@ module.exports = {
     /* plugins: import */
     'import/prefer-default-export': 'off',
     'import/no-unresolved': 'off',
+    'import/extensions': 'off',
 
     /* eslint */
     'no-bitwise': 'off',
