@@ -1,3 +1,5 @@
+# [@oxiran/eslint-config-v1.1.1](https://github.com/oxiran/configs/compare/@oxiran/eslint-config-v1.1.0...@oxiran/eslint-config-v1.1.1) (2022-12-02)
+
 # [@oxiran/eslint-config-v1.1.0](https://github.com/oxiran/configs/compare/@oxiran/eslint-config-v1.0.0...@oxiran/eslint-config-v1.1.0) (2022-11-12)
 
 
