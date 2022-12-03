@@ -1,0 +1,49 @@
+{
+  "name": "@oxiran/eslint-config-ts",
+  "version": "1.0.0",
+  "description": "Shared typescript eslint config of my projects.",
+  "main": ".eslintrc.js",
+  "files": [
+    ".eslintrc.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "config",
+    "configuration",
+    "typescript",
+    "ts"
+  ],
+  "scripts": {
+    "release": "semantic-release -e semantic-release-monorepo"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.1.0"
+  },
+  "dependencies": {
+    "@oxiran/eslint-config": "^1.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  },
+  "author": {
+    "name": "oxiran",
+    "email": "oxiran.liao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oxiran/configs.git",
+    "directory": "/packages/eslint-config-ts"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oxiran/configs/issues"
+  },
+  "homepage": "https://github.com/oxiran/configs",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
